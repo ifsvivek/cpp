@@ -33,6 +33,5 @@ int main()
     printf("input number: ");
     scanf("%lf", &n);
     printf("Cubic root of %lf is %lf\n", n, cubicRoot(n));
-    cout<<endl;
-    return 0;
+return 0;
 }
