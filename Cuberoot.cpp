@@ -11,7 +11,7 @@ double diff(double n,double mid)
 double cubicRoot(double n)
 {
     double start = 0, end = n;
-    double e = 0.0000001;
+    double e = 0.0000000001;
     while (true)
 
     {
@@ -30,8 +30,11 @@ int main()
 {
 
     double n; 
-    printf("input number: ");
-    scanf("%lf", &n);
-    printf("Cubic root of %lf is %lf\n", n, cubicRoot(n));
+    cout<<"input number: ";
+    cin>>n;
+    cout<<"Cubic root is "<<cubicRoot(n);
 return 0;
 }
+
+
+
